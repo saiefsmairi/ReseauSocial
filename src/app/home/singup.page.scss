@@ -1,0 +1,42 @@
+
+
+ion-content {
+  --background: url(../../assets/bg.png) no-repeat center center /cover ;
+
+}
+
+ion-grid{
+  height: 100%;
+}
+ion-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+ion-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.logosignin{
+  width: 80px; height: 80px;   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+ion-item{
+  --border-color: rgb(48, 66, 94);
+  border-radius: 25px;
+
+
+}
+
+.trashIcon
+{
+background-color: rgb(71, 67, 67);
+}

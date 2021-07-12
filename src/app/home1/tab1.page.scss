@@ -1,0 +1,34 @@
+
+
+ion-toolbar {
+  --background: url(../../assets/bg.png) no-repeat center center /cover ;
+
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+.image2 {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  width: 80px;
+  height: 80px;
+  border: 1px green solid;
+}
+
+
+.centerchhips {
+  text-align: center;
+}
+.topnav-right {
+  float: right;
+}
