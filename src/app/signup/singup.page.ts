@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.page.html',
-  styleUrls: ['./login.page.scss'],
+  selector: 'app-singup',
+  templateUrl: './singup.page.html',
+  styleUrls: ['./singup.page.scss'],
 })
-export class LoginPage implements OnInit {
+export class SingupPage implements OnInit {
 
   constructor(    private router: Router,
     ) { }
@@ -15,6 +15,6 @@ export class LoginPage implements OnInit {
   }
   onSubmit() {
 
-    this.router.navigate(['tabs/home']);
+    this.router.navigate(['login']);
     }
 }

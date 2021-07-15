@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'singup',
-    loadChildren: () => import('./home/singup.module').then( m => m.SingupPageModule)
+    loadChildren: () => import('./signup/singup.module').then( m => m.SingupPageModule)
   }
 ];
 @NgModule({
